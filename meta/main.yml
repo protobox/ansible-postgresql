@@ -2,17 +2,14 @@
 galaxy_info:
   author: Patrick Heeney
   company: Protobox
-  license: MIT
+  description: "PostgreSQL Configuration"
   min_ansible_version: 1.4
+  license: MIT
   platforms:
     - name: Ubuntu
       versions:
-        - precise
-        - quantal
-        - raring
-        - saucy
+        - all
   categories:
-    - database
-    - database:sql
-    - development
+    - system
+
 dependencies: []
